@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: api-gateway-rutgas
-        image: 424156486947.dkr.ecr.us-east-1.amazonaws.com/api-gateway-rutgas-dev:#app-version#
+        image: 424156486947.dkr.ecr.us-east-1.amazonaws.com/api-gateway-rutgas-dev:#version
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
